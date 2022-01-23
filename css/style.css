@@ -9,7 +9,7 @@ body{
     display: flex;
     background-image: url("../images/top-banner.png");
     background-repeat: no-repeat;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 
 }
 .welcome{
@@ -58,7 +58,7 @@ body{
     background-image: url("../images/dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 
 }
 
@@ -103,3 +103,73 @@ body{
 }
 
 /* 2st section end.... */
+
+/* 3th section start... */
+
+
+.third-section{
+
+    background-image: url("../images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    margin-bottom: 150px;
+    padding: 0 0 0 8%;
+
+}
+
+.third-section h1{
+    font-size: 50px;
+    font-weight: 700;
+
+}
+
+.third-section h2{
+    color: orangered;
+}
+
+.flexable{
+    display: flex;
+}
+
+.full-stack{
+    width: 40%;
+    box-shadow: 10px 10px 40px grey;
+    margin-right: 3%;
+    padding: 30px;
+    border-radius: 5px;
+    border-left: 7px solid ;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
+    
+}
+.full-stack h1{
+    font-size: 40px;
+}
+.baby{
+    width: 40%;
+    box-shadow: 10px 10px 40px grey;
+    margin-left: 3%;
+    padding: 30px;
+    border-radius: 5px;
+    border-left: 7px solid ;
+    border-image: linear-gradient(tomato, rgb(250, 139, 157));
+    border-image-slice: 1;
+    
+}
+.baby h1{
+    font-size: 40px;
+}
+/* 3th section end.... */
+
+
+
+ /* footer start........ */
+
+footer h4{
+
+    text-align: center;
+    color: grey;
+    font-weight: 400;
+ }
+
+/* footer end........  */
