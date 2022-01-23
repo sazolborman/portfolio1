@@ -9,6 +9,7 @@ body{
     display: flex;
     background-image: url("../images/top-banner.png");
     background-repeat: no-repeat;
+    margin-bottom: 100px;
 
 }
 .welcome{
@@ -49,3 +50,56 @@ body{
 
 
 /* 1st section end.... */
+
+/* 2st section start... */
+
+.second-section{
+    display: flex;
+    background-image: url("../images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    margin-bottom: 100px;
+
+}
+
+
+.img2{
+    width: 45%;
+    padding: 0 6% 0% 8%;
+
+}
+.img2 img{
+    width: 100%;
+
+}
+
+.dream{
+    width: 40%;
+    padding: 0 7% 0% 0%;
+
+}
+.dream h1{
+    font-size: 50px;
+    font-weight: 700;
+}
+.dream a{
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px 40px;
+    background-image: linear-gradient(orange, tomato);
+    background-image: -moz-linear-gradient(orange, tomato);
+    background-image: -webkit-linear-gradient(orange, tomato);
+   color: aliceblue;
+   border-radius: 5px;
+}
+
+.dream a:hover{
+    
+    background-image: linear-gradient(tomato, rgb(250, 139, 157));
+    background-image: -moz-linear-gradient(tomato, rgb(250, 139, 157));
+    background-image: -webkit-linear-gradient(tomato, rgb(250, 139, 157));
+
+}
+
+/* 2st section end.... */
